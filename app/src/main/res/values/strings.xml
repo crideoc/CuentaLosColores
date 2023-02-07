@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CuentaLosColores</string>
+    <string name="coloresLocos">Colores Locos</string>
+    <string name="descripcion">Juega y demuestra lo rapido que eres memorizando</string>
+</resources>
