@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/juego" >
+        <ListPreference
+            android:key="VelocidadJuego"
+            android:title="@string/velocidad"
+            android:summary="@string/eligevelocidad"
+            android:entries="@array/velocidad"
+            android:icon="@drawable/velocidad"
+            android:entryValues="@array/velocidad"
+            />
+
+        <ListPreference
+            android:key="TiempoJuego"
+            android:title="@string/tiempojuego"
+            android:summary="@string/eligetiempo"
+            android:entries="@array/tiempo_juego"
+            android:icon="@drawable/tiempo"
+            android:entryValues="@array/tiempo_juego"
+
+            />
+
+        <ListPreference
+            android:key="MaximoBolas"
+            android:title="@string/maximobolas"
+            android:summary="@string/eligebolas"
+            android:entries="@array/maximo_bolas"
+            android:icon="@drawable/bolasmaximo"
+            android:entryValues="@array/maximo_bolas"
+
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/opcional">
+
+
+        <ListPreference
+            android:key="ColoresDiferentes"
+            android:title="@string/ncolores"
+            android:summary="@string/eligecolores"
+            android:entries="@array/ncolores"
+            android:icon="@drawable/baseline_color_lens_24"
+            android:entryValues="@array/ncolores"
+            />
+
+        <SwitchPreference
+            android:key="rebote"
+            android:title="@string/rebote"
+            android:summary="@string/eligerebote"
+            android:icon="@drawable/baseline_airline_stops_24"
+            />
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

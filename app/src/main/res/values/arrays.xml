@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="velocidad">
+        <item>@string/rapido</item>
+        <item>@string/medio</item>
+        <item>@string/lento</item>
+    </array>
+
+    <array name="tiempo_juego">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </array>
+
+    <array name="maximo_bolas">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+
+
+    <array name="ncolores">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+
+</resources>

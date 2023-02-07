@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="fondocentro">#1DB013</color>
     <color name="fondolateral">#1EFC0F</color>
+    <color name="transparente">#00000000</color>
 </resources>

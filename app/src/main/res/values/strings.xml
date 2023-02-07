@@ -2,4 +2,36 @@
     <string name="app_name">CuentaLosColores</string>
     <string name="coloresLocos">Colores Locos</string>
     <string name="descripcion">Juega y demuestra lo rapido que eres memorizando</string>
+    <string name="Iniciar">Iniciar</string>
+    <string name="rapido">Rapido</string>
+    <string name="medio">Medio</string>
+    <string name="lento">Lento</string>
+    <string name="juego">Juego</string>
+    <string name="velocidad">Velocidad</string>
+    <string name="eligevelocidad">Elige la velocidad de las bolas</string>
+    <string name="tiempojuego">Tiempo de juego</string>
+    <string name="eligetiempo">Elige el tiempo de juego</string>
+    <string name="maximobolas">Maximo de bolas</string>
+    <string name="eligebolas">Elige una cantidad de bolas maxima por color</string>
+    <string name="ncolores">Numero de colores</string>
+    <string name="eligecolores">Elige cuantos colores diferentes habra</string>
+    <string name="opcional">Opcional</string>
+    <string name="rebote">Rebote</string>
+    <string name="eligerebote">Las bolas rebotaran o no</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 </resources>

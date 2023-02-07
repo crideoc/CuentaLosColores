@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CountColors</string>
+    <string name="coloresLocos">Crazy Colors</string>
+    <string name="descripcion">Play and show how fast you are memorizing</string>
+    <string name="Iniciar">Start</string>
+    <string name="rapido">Fast</string>
+    <string name="medio">Medium</string>
+    <string name="lento">Slow</string>
+    <string name="juego">Game</string>
+    <string name="velocidad">Speed</string>
+    <string name="eligevelocidad">Choose the speed of the balls</string>
+    <string name="tiempojuego">Game Time</string>
+    <string name="eligetiempo">Choose the game time</string>
+    <string name="maximobolas">Maximun number of balls</string>
+    <string name="eligebolas">Choose a amount the maximun balls</string>
+    <string name="ncolores">Number of colors</string>
+    <string name="eligecolores">Choose how many different colors there will be</string>
+    <string name="opcional">Optional</string>
+    <string name="rebote">Rebound</string>
+</resources>

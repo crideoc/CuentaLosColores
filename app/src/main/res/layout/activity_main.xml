@@ -11,34 +11,38 @@
         android:id="@+id/btnIniciar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="235dp"
-        android:layout_marginBottom="234dp"
+        android:layout_marginTop="32dp"
         android:backgroundTintMode="add"
         android:text="@string/Iniciar"
         app:backgroundTint="@color/fondocentro"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="286dp"
         android:layout_height="184dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginBottom="32dp"
         android:fontFamily="sans-serif-black"
         android:gravity="center"
         android:text="@string/descripcion"
         android:textColor="#9C27B0"
         android:textSize="20sp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="273dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btnIniciar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="262dp"
         android:layout_height="111dp"
-        android:fontFamily="@font/PurpleSmile"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/smile"
         android:gravity="center"
         android:text="@string/coloresLocos"
         android:textColor="@color/fondolateral"

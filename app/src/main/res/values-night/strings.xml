@@ -2,4 +2,5 @@
 <resources>
     <string name="coloresLocos">Colores Locos</string>
     <string name="descripcion">Juega y demuestra lo rapido que eres memorizando</string>
+    <string name="Iniciar">Iniciar</string>
 </resources>
